@@ -1,5 +1,6 @@
 from argparse import ArgumentParser,ArgumentDefaultsHelpFormatter
 from packer.utils.common import hello_world
+from packer.utils.common import python_info
 
 
 def parse_args():
@@ -13,6 +14,7 @@ def parse_args():
 def main(args):
     message = args.mess
     output = hello_world(message)
+    python_info()
     print(output)
 
 
