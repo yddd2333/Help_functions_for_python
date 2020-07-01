@@ -9,7 +9,7 @@ setup(
     author_email="dengyang1995@outlook.com",
     description="Python Framework.",
     license="MIT",
-    url="",  #github地址或其他地址
+    url="",  # github地址或其他地址
     packages=find_packages(),
     include_package_data=True,
     classifiers=[
@@ -28,7 +28,7 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     install_requires=[
-            'numpy>=1.14.0'   #所需要包的版本号
+        'numpy>=1.14.0'  # 所需要包的版本号
     ],
     zip_safe=True,
 )
