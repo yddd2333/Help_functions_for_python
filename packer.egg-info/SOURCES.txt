@@ -1,0 +1,8 @@
+README.md
+setup.py
+packer.egg-info/PKG-INFO
+packer.egg-info/SOURCES.txt
+packer.egg-info/dependency_links.txt
+packer.egg-info/requires.txt
+packer.egg-info/top_level.txt
+packer.egg-info/zip-safe
